@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="api">
+    <output-path>$PROJECT_DIR$/out/artifacts/api</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Marro" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+          <element id="library" level="project" name="json-20170516" />
+          <element id="library" level="project" name="mysql-connector-java-6.0.6" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Marro/web/Web" />
+    </root>
+  </artifact>
+</component>
